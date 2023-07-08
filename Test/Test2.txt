@@ -1,0 +1,87 @@
+1.d)Maternal Uncle.
+2.b)Grandfather.
+3.a)Brother.
+4.d)Brother.
+5.c)Grandson.
+6.c)X+A*Y.
+7.c)R.
+8.c)Sister-in-law.
+9.b)Brother.
+10.c)S.
+11.a)10kms.
+12.a)North.
+13.b)South-East.
+14.c)South-West.
+
+                                                                                 Java
+
+
+1.Compiler error.
+2.10.110.
+3.Compiler error.
+4.Because without creating an instanciation of class static method will called within the class.
+5. class ReverseArray {
+    public static void main(String[] args) {
+        int[] inputArray = {10, 45, 7, 9, 2};
+        System.out.println("Original Array: " + inputArray);
+		reverseArray(inputArray);
+		System.out.println("Reversed Array: " + inputArray);
+    }
+	public static void reverseArray(int[] array) 
+	{
+        int start = 0;
+        int end = array.length - 1;
+		while (start < end) 
+		{
+          int temp = array[start];
+            array[start] = array[end];
+            array[end] = temp;
+            start++;
+            end--;
+        }
+    }
+}
+7.Done.
+8.this keyword is used to refer the current object of a method
+  this() keyword is used to call one constructor from another constructor in same class.
+9.class NumberSwap {
+    public static void main(String[] args) {
+        int a = 2;
+        int b = 6;
+
+        System.out.println("Before swapping numbers are:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        a = a ^ b;
+        b = b ^ a;
+        a = a ^ b;
+
+        System.out.println("After swapping numbers are:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+10. 1.class Pattern1 {
+    public static void main(String[] args) 
+	{
+        System.out.println("&   &");
+        System.out.println("  &  ");
+        System.out.println("&   &");
+    }
+    }
+    2.class Pattern2 {
+    public static void main(String[] args)
+	{
+        System.out.println("% % %");
+        System.out.println("% & %");
+        System.out.println("% % %");
+    }
+    }
+	3.class Pattern3 {
+    public static void main(String[] args) 
+	{
+        System.out.println("% % %");
+        System.out.println("%   %");
+        System.out.println("% % %");
+        }
+    }
