@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="basic/src/|constructors/|june7th/|Test/june7th/object/|object/|Test/|.git/june7th/|.git/june7th/instances/|Test/june7th/instances/|instances/|instances/june7th/|Test/june7th/|chaining with non static/|constructors/june7th/object/|constructors/june7th/Test/|constructors/june7th/instances/|constructors/june7th/|Chaining/|june7th/instances/" kind="src" path=""/>
+	<classpathentry excluding="instances/" kind="src" path=".git/june7th"/>
+	<classpathentry kind="src" path=".git/june7th/instances"/>
+	<classpathentry kind="src" path="basic/src"/>
+	<classpathentry kind="src" path="Chaining"/>
+	<classpathentry kind="src" path="chaining with non static"/>
+	<classpathentry excluding="june7th/object/|june7th/Test/|june7th/instances/|june7th/" kind="src" path="constructors"/>
+	<classpathentry excluding="object/|Test/|instances/" kind="src" path="constructors/june7th"/>
+	<classpathentry kind="src" path="constructors/june7th/instances"/>
+	<classpathentry kind="src" path="constructors/june7th/object"/>
+	<classpathentry kind="src" path="constructors/june7th/Test"/>
+	<classpathentry excluding="june7th/" kind="src" path="instances"/>
+	<classpathentry kind="src" path="instances/june7th"/>
+	<classpathentry excluding="instances/" kind="src" path="june7th"/>
+	<classpathentry kind="src" path="june7th/instances"/>
+	<classpathentry kind="src" path="object"/>
+	<classpathentry excluding="june7th/object/|june7th/instances/|june7th/" kind="src" path="Test"/>
+	<classpathentry excluding="object/|instances/" kind="src" path="Test/june7th"/>
+	<classpathentry kind="src" path="Test/june7th/instances"/>
+	<classpathentry kind="src" path="Test/june7th/object"/>
+	<classpathentry kind="output" path="basic/bin"/>
+</classpath>
