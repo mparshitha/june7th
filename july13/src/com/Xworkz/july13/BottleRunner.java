@@ -3,6 +3,7 @@ package com.Xworkz.july13;
 public class BottleRunner {
 
 	public static void main(String[] args) {
+		System.out.println("Running main in BottleRunner");
 		Bottle ref=new Bottle("Tupperware");
 		ref.bottleType(BottleType.Glass);
 		ref.prize=540;
