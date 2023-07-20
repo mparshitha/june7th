@@ -14,8 +14,8 @@ public class ChickenRunner {
 			
 			System.out.println("           ");
 
-			Chicken boilerChicken=new BroilerChicken(13,"Farm",true,6.9); 
-			boilerChicken.printInfo();
+			Chicken broilerChicken=new BroilerChicken(13,"Farm",true,6.9); 
+			broilerChicken.printInfo();
 			
 			
 			
