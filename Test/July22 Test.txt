@@ -1,0 +1,132 @@
+JAVA:
+
+
+1.Compiler Error.
+2.Compilation Error.
+3.Identifier Error.
+4.length is: 4
+  sum of values is:200
+6.Method parameters are the variables that are used in the method signature to pass the values inside the class.
+7.Compile time polymorphism is achieved through method overloading.Method overloading means which allows multiple method with the same name and a different parameter list.
+The method is called at the time of compilation depends on numbers of arguments that is passed.
+Ex:public class Main {
+    public int add(int a, int b) {
+        return a + b;
+    }
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+    public double add(double a, double b) {
+        return a + b;
+    }
+}
+public class MainRunner{
+public static void main)String[] args)
+{
+Main main=new Main();
+int result1=add(a,b);
+int result2=add(a,b,c);
+double result3=add(a,b);
+System.out.println("Result 1: " + result1);
+System.out.println("Result 2: " + result2);
+System.out.println("Result 3: " + result3);
+}
+8.Var-args are variable length arguments which allows the method with variable number of arguments with same types.
+9.Package is process of making groups of classes in the form of folders.It is declared first in the java project as package.com.rit.map
+The different types of imports are;
+1.Explicit import
+2.Implicit import.
+
+1.Explicit import:It allows specific class from package with fully qualified name.Where we use import Keyword that is followed by fully qualified name.
+ex:import com.rit.map.listofplaces
+10.Constructor chaining means calling one constructor inside another constructor with same calss or super class.
+Ex: public class Animal(
+String name;
+public Animal(String name)
+{
+this.name=name;
+}
+}
+class Cow extends Animal{
+int age;
+public Cow(String name,int age)
+super(name)
+this.age=age;
+}
+}
+11.public class FibonacciRecursion {
+    public static void main(String[] args) 
+	{
+        int n = 10;
+        for (int i = 0; i < n; i++) 
+		{
+            System.out.print(fibonacci(i) + " ");
+        }
+    }
+    public static int fibonacci(int n) 
+	{
+        if (n <= 1)
+		{
+            return n;
+        } 
+		else
+		{
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+    }
+}
+13.public class Arrays {
+    public static void main(String[] args) 
+	{
+        int[] array1 = {1, 2, 3, 4, 5};
+        int[] array2 = {5, 3, 1, 2, 4};
+
+        boolean result = areArraysEqual(array1, array2);
+
+        if (result) 
+		{
+            System.out.println("Both arrays contain the same elements.");
+        } else {
+            System.out.println("The arrays do not contain the same elements.");
+        }
+    }
+
+    public static boolean areArraysEqual(int[] arr1, int[] arr2)
+	{
+        if (arr1 == null || arr2 == null || arr1.length != arr2.length) 
+		{
+            return false;
+        }
+		else
+		{
+		return true;
+		}
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        for (int i = 0; i < arr1.length; i++) 
+		{
+            if (arr1[i] != arr2[i])
+			{
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+14.Enumeration is one of the special data type that allows set of named constants that to be difined.It allows only fixed set of values.The values should be in uppercase as a standard.
+syntax: class enum Enum_Name{
+CONSTANT1,CONSTANT2:
+}
+15.First it will allocate the memory for variables in intance memory,it will copy the variables in instance memory,initialize the variables in constant pool,it will invoke the constructor in a stack,after invoking it by reference the variables will get the values which are pointed from constant pool.
+16.1.Instance variables.
+   2.Methods.
+   3.Static and non static methods.
+   4.Constructors.
+  
+  
+    
+
+
+
+
