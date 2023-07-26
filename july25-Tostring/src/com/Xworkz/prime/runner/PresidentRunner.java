@@ -6,8 +6,8 @@ public class PresidentRunner {
 		President president=new President();
 		System.out.println(president.toString());
 		
-		President president1=new President();
-		System.out.println(president1);
+		Object object1=new President();
+		System.out.println(object1);
 	}
 
 }

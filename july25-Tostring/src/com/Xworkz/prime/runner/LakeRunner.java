@@ -7,8 +7,8 @@ public class LakeRunner {
 		Lake lake=new Lake();
 		System.out.println(lake);
 		
-		Lake lake1=new Lake();
-		System.out.println(lake1.toString());
+		Object object1=new Lake();
+		System.out.println(object1.toString());
 	}
 
 }

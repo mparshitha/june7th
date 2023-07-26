@@ -4,7 +4,7 @@ public class Ladoo {
 	@Override
 	public String toString() {
 		
-		System.out.println("ladoo is soo sweet");
+		System.out.println("Running in Ladoo");
 		return "sweet";
 	}
 }

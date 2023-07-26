@@ -6,8 +6,8 @@ public class MoneyRunner {
 		Money money=new Money();
 		System.out.println(money.toString());
 		
-		Money money1=new Money();
-		System.out.println(money1);
+		Object object1=new Money();
+		System.out.println(object1);
 
 	}
 

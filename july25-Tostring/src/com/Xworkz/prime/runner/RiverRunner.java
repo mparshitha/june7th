@@ -6,8 +6,8 @@ public class RiverRunner {
 		River river=new River();
 		System.out.println(river.toString());
 		
-		River river1=new River();
-		System.out.println(river1);
+		Object object1=new River();
+		System.out.println(object1);
 
 	}
 

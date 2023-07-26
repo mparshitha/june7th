@@ -6,8 +6,8 @@ public class MLARunner {
 		MLA mla=new MLA();
 		System.out.println(mla.toString());
 		
-		MLA mla1=new MLA();
-		System.out.println(mla1);
+		Object object1=new MLA();
+		System.out.println(object1);
 
 	}
 

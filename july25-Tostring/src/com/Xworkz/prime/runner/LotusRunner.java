@@ -6,8 +6,8 @@ public class LotusRunner {
 		Lotus lotus=new Lotus();
 		System.out.println(lotus.toString());
 		
-		Lotus lotus1=new Lotus();
-		System.out.println(lotus1);
+		Object object1=new Lotus();
+		System.out.println(object1);
 	}
 
 }

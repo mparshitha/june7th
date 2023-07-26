@@ -7,7 +7,7 @@ public class FinanceRunner {
 		Finance finance=new Finance();
 		System.out.println(finance);
 		
-		Finance finance1=new Finance();
-		System.out.println(finance1.toString());
+		Object object1=new Finance();
+		System.out.println(object1.toString());
 	}
 	}
