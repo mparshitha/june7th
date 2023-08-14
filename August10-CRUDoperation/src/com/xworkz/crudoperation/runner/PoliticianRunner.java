@@ -16,6 +16,16 @@ System.out.println("Running main in Politician Runner\n");
 		System.out.println("**************************");
 		
 		repository.display();
+		
+	System.out.println("==========================");
+		String[] ref=repository.findStartswith("Pra");
+		for (int i = 0; i < ref.length; i++) {
+			String name = ref[i];
+			if (name!=null) {
+				System.out.println("String "+name);
+			}
+		}
+		
 	}
 
 }
