@@ -1,8 +1,9 @@
-package com.xworkz.app.customer;
+package com.xworkz.customer.Dto;
 
 import java.io.Serializable;
 
 public class CustomerDTO implements Serializable {
+
 	private String name;
 	private String email;
 	private String location;
